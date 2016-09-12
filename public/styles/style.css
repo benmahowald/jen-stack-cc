@@ -1,0 +1,29 @@
+html, body {
+  background-color: #e7f5f9;
+  color: #333;
+  font-family: 'Open Sans Condensed', arial, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: auto auto;
+  text-align: center;
+}
+input {
+  margin: 20px;
+  padding: 10px;
+  font-size: 120%;
+}
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 120%;
+  color: #45656e;
+  border: 1px solid #45656e;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45656e;
+  color: #e7f5f9;
+  border: 1px solid #45656e;
+}
