@@ -32,8 +32,8 @@ $(document).ready(function () {
 
 var displayJokes = function (jokes) {
   console.log('in displayJokes');
-  console.log(jokes[0]);
   for (var i = 0; i < jokes.length; i++) {
-    $('#jokesOutput').append(jokes[0]);
+    $('#jokesOutput').append('<h2>' + jokes[i].whoseJoke + '</h2><p>' +
+  jokes[i].jokeQuestion + '</p><p>' + jokes[i].punchLine + '</p>');
   }
 };

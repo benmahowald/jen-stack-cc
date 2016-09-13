@@ -26,4 +26,13 @@ button:hover {
   background-color: #45656e;
   color: #e7f5f9;
   border: 1px solid #45656e;
+  outline: none;
+}
+h2, p {
+  font-size: 120%;
+}
+#jokesOutput {
+  margin: auto auto;
+  width: 75%;
+  border: 1px 0 0 0 solid ##45656e;
 }
