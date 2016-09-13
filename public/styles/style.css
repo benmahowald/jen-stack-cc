@@ -12,6 +12,7 @@ input {
   margin: 20px;
   padding: 10px;
   font-size: 120%;
+  outline: none;
 }
 button {
   margin: 20px;
@@ -26,13 +27,22 @@ button:hover {
   background-color: #45656e;
   color: #e7f5f9;
   border: 1px solid #45656e;
-  outline: none;
+}
+button:focus {
+  outline: 0;
+}
+h2 {
+  margin-top: 40px;
+  text-decoration: underline;
 }
 h2, p {
-  font-size: 120%;
+  font-size: 180%;
+  line-height: 30%;
 }
 #jokesOutput {
-  margin: auto auto;
+  margin: 20px auto;
   width: 75%;
-  border: 1px 0 0 0 solid ##45656e;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: -color: #45656e;
 }

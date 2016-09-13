@@ -8,6 +8,11 @@ var portDecision = process.env.PORT || 3000;
 // initial jokes provided by the client
 jokes = [
   {
+    whoseJoke: 'Ben',
+    jokeQuestion: 'What\'s the difference between a banjo and a trampoline?',
+    punchLine: 'You take your shoes off to jump on a trampoline.',
+  },
+  {
     whoseJoke: 'Huck',
     jokeQuestion: 'What\'s the difference between roast beef and pea soup?',
     punchLine: 'Anyone can roast beef.',
